@@ -1,16 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+body {
+    background-image: url("./quote\ Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.quote {
+    color: antiquewhite;
+    font-size: 52px;
+    font-family: 'Style Script', cursive;
 }
 
 .quote_generator {
     height: 500px;
-    border: 1px solid black;
+    border-radius: 30px;
     width: 800px;
     margin: 104px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: 1px 1px 21px white;
+    padding: 30px;
+}
+
+button {
+    width: 171px;
+    height: 63px;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-top: 68px;
+    background: transparent;
+    color: navajowhite;
+    box-shadow: 0px 5px 8px white;
+    border: 1px solid white;
+    outline: none;
 }
